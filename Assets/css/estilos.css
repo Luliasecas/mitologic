@@ -1,0 +1,179 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+
+/* HEADER */
+
+header{
+  height: 8vh;
+  width: auto;
+  background-color: #ffe292;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+#header{
+  height: 10%;
+  width: auto;
+  }
+
+.logo__contenedor{
+  width: 20%;
+  height: 100%;
+  display: block;
+  padding: 2%;
+}
+
+header nav{
+  width: 100%;
+  height: auto;
+  background-color:  #d1f2eb;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin: 0;
+}
+
+header nav ul{
+  width: auto;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+
+  }
+
+.item{
+width: 80%;
+height: 30%;
+display: flex;
+align-items: center;
+color:  #28b463;
+padding: 0;
+}
+
+.item a{
+  width: 80%;
+  height: 30%;
+padding-left: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*MAIN*/
+
+main{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color:  #922b21;
+}
+
+#main {
+  width: auto;
+  height: 80%;
+}
+
+main section{
+height: 30%;
+width: 70%;
+
+}
+
+.nombre{
+  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
+  color:  #f5cba7;
+}
+
+#hola{
+  font-size: 90%;
+  text-align: center;
+}
+
+h3{
+  font-size: 90%;
+  text-align: center;
+}
+
+
+#fin__o{
+  font-stretch: extra-expanded;
+  text-align: center;
+}
+/*FOOTER*/
+
+#footer {
+  width: auto;
+  height: 10%;
+}
+footer{
+height: 12vh;
+  background-color: #ffe292;
+  border: 3px solid;
+border-color: black;
+}
+
+footer p{
+  font-size: 130%;
+    display: flex;
+  justify-content: center;
+  color: #922b21;
+  
+
+}
+
+.invisible{
+  display: none;
+}
+
+@media  (min-width: 1000px) {
+
+section img{
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  align-items: center;
+}
+
+#hola{
+  font-size: 170%;
+  text-align: center;
+}
+
+h3{
+  font-size: 120%;
+  text-align: center;
+}
+
+section{
+  font-size: 160%;
+  text-align: center;
+}
+
+.nombre{
+  font-size: 175%;
+}
+
+.invisible{
+  display: block;
+}
+
+}
