@@ -1,12 +1,12 @@
-
+@font-face {
+  font-family: enyo;
+  src: url(enyo.otf) format("opentype");
+ }
 *{
   box-sizing: border-box;
 }
 
-@@font-face {
-  font-family: "enyo";
-  src: url("enyo.otf") format("opentype");
- }
+
 body{
   /*style:"letter-spacing: 0.007em";*/
   margin: 0;
