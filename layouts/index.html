@@ -11,28 +11,27 @@
 
 <!-- HEADER -->
 <header>
-<div class="div__header">
-  <a class="logo__contenedor" href="#">
-  <img src="..//Assets/imagenes/logo.png" alt="Logo">
-  </a>
-</div>
 
-<nav>
-  <div class="list__container">
-    <ul>
-      <li class="item"><a href="#ofrece"> Servicios</a></li>
-      <li class="item"><a href="#fin__o"> Catálogo</a></li>
-      <li class="item"><a href="#expe"> Experiencias</a></li>
-      <li class="item"><a href="#footer"> Contacto</a></li>
-    </ul>
- </div>
-</nav>
+  <div class="logo_nav">
+       <a class="logo_a" href="index.html">
+       <img class="logo"src="..//Assets/imagenes/logo.png" alt="Logo" >
+         </a>
+       <nav>
+          <div class="list__container">
+               <ul>
+               <li class="item"><a href="#ofrece"> Servicios</a></li>
+               <li class="item"><a href="#cata"> Catálogo</a></li>
+               <li class="item"><a href="#expe"> Experiencias</a></li>
+               <li class="item"><a href="#footer"> Contacto</a></li>
+               </ul>
+         </div>
+      </nav>
+  </div>
 
 </header>
       <!-- MAIN -->
 
 <main id="main">
-
 
 <section>
       <h2 class="titulo" id="quienes">¿Quiénes somos? </h2>
@@ -49,165 +48,59 @@
 </section>
 
 <section>
-    <h2> Catálogo </h2>
+    <h2 class="titulo" id="cata"> Catálogo </h2>
 
+       <div class="espacio">
+            <h3 class="nombre">Dragón</h3>
+       </div>
 
-<!-- PRUEBA DE TARJETA-->
+       <div class="box">
+            <img class="img-flex" src="..//Assets/imagenes/dragon.jpeg" alt="">
+             <p class="desc p-2 flex-shrink-1 bd-highlight">Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
+             jamás. Están presentes en las leyendas de Asia, Europa, América y Oceanía, y unas de sus principales características es que escupen fuego y pueden volar.
+             Son grandes compañeros de paseos de días enteros.Recomendado para personas que viven en zonas rurales.</p>
+       </div>
 
-<!-- TARETA VERTICAL-->
-<!--
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-        <div class="col-md-8">
-                <img src="..//Assets/imagenes/dragon.jpeg" class="img-fluid rounded-start" alt="...">
-        </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Dragón</h5>
-        <p class="card-text">  <p>Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
-          jamás. Están presentes en las leyendas de Asia, Europa, América y Oceanía, y unas de sus principales características es que escupen fuego y pueden volar.
-          Son grandes compañeros de paseos de días enteros. <br>
-          Recomendado para personas que viven en zonas rurales. </p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       <div class="espacio">
+             <h3 class="nombre">Fauno</h3>
       </div>
-    </div>
 
-    <div class="col-md-8">
-            <img src="..//Assets/imagenes/cerbero.jpeg" class="img-fluid rounded-start" alt="...">
-    </div>
-  <div class="col-md-8">
-  <div class="card-body">
-    <h5 class="card-title">Cerbero</h5>
-    <p class="card-text">  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-  </div>
-
-
-  </div>
-</div>
--->
-
-<!-- TARETA superpuesta
-
-<div class="card bg-dark text-white">
-  <img src="..//Assets/imagenes/dragon.jpeg" class="card-img" alt="...">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
--->
-
-<!-- TARETA OTRA -->
-<!--
-<div class="centro">
-  <div class="card" style="width: 90rem;">
-    <img src="..//Assets/imagenes/fauno.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">El Fauno es personificado como un hombre con largos cuernos, sus piernas son de cabra y en vez de tener pies,
-      posee pesuñas. <br>En la mitología romana se encontraba en los bosques y campos, su cometido en la tierra era
-     proteger a los rebaños de ataques con su fuerza causados por alimañas o campesinos. Además, podía revelar el
-     futuro a través de sueños o voces que le hablaban.</p>
-      <p>Recomendado para personas que gustan de largas charlas y la adivinación.</p>
-        </div>
-  </div>
-</div>
- -->
-
-<!-- TARETA OTRA OTRA -->
-<!--
- <div class="card bg-dark text-white">
-   <img src="..//Assets/imagenes/dragon.jpeg" class="card-img" alt="...">
-   <div class="card-img-overlay">
-     <h5 class="card-title">Dragón</h5>
-     <p class="card-text">Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
-       jamás. Están presentes en las leyendas de Asia, Europa, América y Oceanía, y unas de sus principales características es que escupen fuego y pueden volar.
-       Son grandes compañeros de paseos de días enteros.</p>
-       <p>Recomendado para personas que viven en zonas rurales.</p>
-     </div>
- </div>
- -->
-<!-- TARETA HORIZONTAL-->
-<!--
-<div class="card mb-3" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-4" >
-      <img src="..//Assets/imagenes/basilico.jpg" class="rounded float" alt="...">
-
-    </div>
-    <div class="col-md-8" >
-      <div class="card-body" >
-        <h5 class="card-title">Basilisco</h5>
-        <p class="card-text">El basilisco común, es un animal mitológico híbrido, cuya apariencia es más similar a la de un gallo, un reptil y murciélago.
-           Su vida empieza cuando rompe un huevo con forma redonda, abandonado por una gallina en principio e incubado por un
-           reptil más tarde.
-           Es un animal con un poder bastante parecido al de medusa, ya que es capaz de convertir en piedra todo lo que toca,
-           por lo que escasea de enemigos directos.</p>
-           <p>Recomendado para gente que tiene enemigos o no le gusta la compañia. No dejar este animal con acceso a la vía
-           pública.</p>
-              </div>
-    </div>
-  </div>
-</div>
--->
-
-  <div class="espacio">
-    <h3 class="nombre">Dragón</h3>
-    </div>
-
-    <div class="d-flex bd-highlight">
-    <img class="rounded p-2 w-100 bd-highligh"src="..//Assets/imagenes/dragon.jpeg" alt="">
-    <p class="desc p-2 flex-shrink-1 bd-highlight">Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
-    jamás. Están presentes en las leyendas de Asia, Europa, América y Oceanía, y unas de sus principales características es que escupen fuego y pueden volar.
-    Son grandes compañeros de paseos de días enteros.Recomendado para personas que viven en zonas rurales.</p>
-
-
-  </div>
-
-    <div class="espacio">
-         <h3 class="nombre">Fauno</h3>
-         </div>
-
-         <div class="d-flex bd-highlight">
-         <img class="rounded p-2 w-100 bd-highligh"src="..//Assets/imagenes/fauno.jpeg" alt="">
-         <p class="desc p-2 flex-shrink-1 bd-highlight">El Fauno es personificado como un hombre con largos cuernos, sus piernas son de cabra y en vez de tener pies,
+         <div class="box">
+             <img class="img-flex" src="..//Assets/imagenes/fauno.jpeg" alt="">
+             <p class="desc p-2 flex-shrink-1 bd-highlight">El Fauno es personificado como un hombre con largos cuernos, sus piernas son de cabra y en vez de tener pies,
          posee pesuñas. <br>En la mitología romana se encontraba en los bosques y campos, su cometido en la tierra era
         proteger a los rebaños de ataques con su fuerza causados por alimañas o campesinos. Además, podía revelar el
         futuro a través de sueños o voces que le hablaban.Recomendado para personas que gustan de largas charlas y la adivinación.</p>
-    </div>
+         </div>
 
-    <div class="espacio">
-         <h3 class="nombre">Basilisco</h3>
-      </div>
+       <div class="espacio">
+              <h3 class="nombre">Basilisco</h3>
+       </div>
 
-         <div class="d-flex bd-highlight">
-          <img class="rounded p-2 w-100 bd-highlight" src="..//Assets/imagenes/basilico.png" alt="">
-        <p class="desc desc p-2 flex-shrink-1 bd-highlight"> El basilisco común, es un animal mitológico híbrido, cuya apariencia es más similar a la de un gallo, un reptil y murciélago.
-         Su vida empieza cuando rompe un huevo con forma redonda, abandonado por una gallina en principio e incubado por un
-         reptil más tarde.
-         Es un animal con un poder bastante parecido al de medusa, ya que es capaz de convertir en piedra todo lo que toca,
-         por lo que escasea de enemigos directos.Recomendado para gente que tiene enemigos o no le gusta la compañia. No dejar este animal con acceso a la vía
-         pública.</p>
-    </div>
+        <div class="box">
+              <img class="img-flex" src="..//Assets/imagenes/basilico.png" alt="">
+              <p class="desc desc p-2 flex-shrink-1 bd-highlight"> El basilisco común, es un animal mitológico híbrido, cuya apariencia es más similar a la de un gallo, un reptil y murciélago.
+              Su vida empieza cuando rompe un huevo con forma redonda, abandonado por una gallina en principio e incubado por un
+             reptil más tarde.
+             Es un animal con un poder bastante parecido al de medusa, ya que es capaz de convertir en piedra todo lo que toca,
+             por lo que escasea de enemigos directos.Recomendado para gente que tiene enemigos o no le gusta la compañia. No dejar este animal con acceso a la vía
+             pública.</p>
+        </div>
 
-<div class="espacio">
-         <h3 class="nombre">Cerbero</h3>
-</div>
+       <div class="espacio">
+               <h3 class="nombre">Cerbero</h3>
+       </div>
 
-<div class="d-flex bd-highlight">
-     <img class="rounded p-2 w-100 bd-highlight" src="..//Assets/imagenes/cerbero.jpeg" alt="">
-     <p class="desc p-2 flex-shrink-1 bd-highlight"> Cerbero era el perro guardián de Hades, el Dios del inframundo, que resguardaba el lugar, estando en las afueras
-     de la puerta del reino de los muertos para evitar la salida de los mismos y la entrada de los vivos.
-     Todo aquel que estuviera cerca a esta puerta se toparía con un gran monstruo con forma de perro de tres cabezas
-     y con una larga serpiente de cola. Recomendado para quien gusta de compañias profundas y transformadoras. </p>
+         <div class="box">
+               <img class="img-flex" src="..//Assets/imagenes/cerbero.jpeg" alt="">
+              <p class="desc p-2 flex-shrink-1 bd-highlight"> Cerbero era el perro guardián de Hades, el Dios del inframundo, que resguardaba el lugar, estando en las afueras
+              de la puerta del reino de los muertos para evitar la salida de los mismos y la entrada de los vivos.
+              Todo aquel que estuviera cerca a esta puerta se toparía con un gran monstruo con forma de perro de tres cabezas
+              y con una larga serpiente de cola. Recomendado para quien gusta de compañias profundas y transformadoras. </p>
 
          <!-- <p class="desc"></p>-->
-
-
-   </div>
-</section>
+         </div>
+  </section>
 
 
 <section>
@@ -223,20 +116,6 @@
         </p>
 </section>
 
-  <!-- Contacto Borrado
-
-<section>
-         <h2 class="titulo" id="contacto">Contacto</h2>
-         <p>Recibimos consulta únicamente por correo mitologicrealidad@mitologic.com <br>
-         El catálogo de animales mitológicos se actualiza constantemente, pueden suscribirse a un mailing mensual de
-         novedades, enviando un correo con asunto "Quiero Más".<br>
-         San Salvador de Jujuy, Argentina.</p>
-</section>
-
-<section>
-         <p class="invisible">Puden consultar el catálogo del 2020 <a href="../Assets/imagenes/catalogo.pdf" target="_blank">aquí</a> </p>
-</section>
--->
 </main>
 
       <!-- FOOTER -->
@@ -253,17 +132,17 @@
 
    <div class="insta">
          <a href="https://www.instagram.com/" target="_blank">
-         <img src="..//Assets/logos/logoinsta.jpg" alt="pagina">
+         <img src="..//Assets/logos/logoinsta.jpg" width="50" height="50">
          </a>
    </div>
 
    <div class="face">
           <a href="https://www.facebook.com" target="_blank">
-          <img src="..//Assets/logos/logoface.jpg" alt="pagina">
+          <img src="..//Assets/logos/logoface.jpg" width="50" height="50">
           </a>
    </div>
 
-</div>
+   </div>
 </footer>
 
 

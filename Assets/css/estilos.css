@@ -7,10 +7,7 @@
   font-family: "Montserrat-Black";
   src: url("BebasNeue.otf") format("truetype");
  }
- @font-face {
-   font-family: "handwriting-draft";
-   src: url("handwriting-draft.ttf") format("opentype");
-  }
+
   @font-face {
     font-family: "Montserrat-Medium";
     src: url("Montserrat-Medium.ttf") format("opentype");
@@ -22,75 +19,78 @@
     }
 
 
+.logo{
+   width: 35%
+
+}
+
+.img-flex {
+    margin: 10px;
+    width: 30%;
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 
 
 body{
-  /*style:"letter-spacing: 0.007em";*/
   margin: 0;
   padding: 0;
-  font-family: "Montserrat-Medium";
-    }
-
-img {
-  height: 80%;
-  width: 80%;
-  }
+      }
 
 /* HEADER */
 
-header{
-  height: 10%;
-  width: auto;
-  background-color: #ffe292;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+header {
+    height: 10%;
+    width: 100%;
+    background-color: #ffe292;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-a:hover{
+
+header nav {
+    background-color: #ffe292;
+    font-family: "Montserrat-Medium";
+}
+
+.logo_a{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-top: 18px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.item {
   color: black;
-  text-transform: full-width;
-  text-decoration: none;
-  }
-
-
-.div__header{
-  width: 30%;
-  height: 100%;
-  display: block;
-  padding: 2%;
+padding: 50px;
+list-style: none;
+ letter-spacing: 5px;
 }
-
-header nav{
-  width: 70%;
-  height: auto;
-  background-color: #ffe292;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 25px;
-  font-family: "Montserrat-Medium";
-}
-
-header nav ul{
-  width: auto;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  flex-wrap: wrap;
-  font-size: 120%;
-  }
-
-  .item {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      color: black;
-      flex-wrap: wrap;
-      padding: 3px;
-      list-style: none;
-
-  }
 
 .item a{
   width: 100%;
@@ -98,8 +98,14 @@ header nav ul{
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
+  text-decoration-style: dashed;
   color: black;
 }
+
+a:hover{
+   letter-spacing: 15px;
+}
+
 
 /*MAIN*/
 
@@ -125,8 +131,8 @@ main section{
   background-color: #060606c2;
   color: #ffe292;
   font-family: "Montserrat-Black";
-  font-size: 300%;
-  padding: 2%;
+  font-size: 250%;
+  padding: 1%;
 }
 
 .espacio{
@@ -135,59 +141,30 @@ main section{
 }
 
 h2{
-  font-size: 250%;
   text-align: center;
-  background-color:  #f1c40f;
+  background-color: #f1c40f;
   padding: 2%;
   margin-bottom: 4%;
   color: #000000e8;
   border: 3px solid;
   border-color: black;
   font-family: "Impact";
-
+  font-size: 35px;
 }
 
 main p{
     text-align: justify;
     margin: 24px;
-    font-weight: 600;
-    font-size: 100%;
+    font-family: "Montserrat-Medium";
     color: black;
     }
-/*
-.card-text{
-  font-family: "Montserrat-Medium";
-  color: #f1c40f;
-  }
-  .card-body{
-    background-color: black;
-    }
-
-  .centro{
-     padding-left: 35%;
-      }
-
-  .col-md-4{
-    image-orientation: center;*/
-
-  /*  .desc{
-      display: flex;
-      justify-content: flex-end;
-      width: 35%;
-      flex-direction: row;
-    }
-    */
-
-.fondoDiv{
-  background-image: url("..//Assets/imagenes/basilico.jpg");
-}
-
 
 /*FOOTER*/
 #footer {
   width: auto;
   height: 20%;
   background-color: #ffe292;
+  font-family: "Montserrat-Medium";
 }
 
 .guasa:hover,
@@ -199,26 +176,13 @@ main p{
 }
 
 .social-icons{
-display: flex;
-justify-content: center;
+   display: flex;
+   justify-content: center;
 }
 
-.guasa{
-  width: 5%;
-  height: 5%;
-  opacity: 0.7;
-}
-
-.insta{
-  width: 5%;
-  height: 5%;
-  opacity: 0.7;
-}
-
-.face{
-  width: 5%;
-  height: 5%;
-  opacity: 0.7;
+.guasa, .insta, .face {
+    opacity: 0.7;
+    margin: 15px;
 }
 
 .text{
@@ -227,103 +191,58 @@ justify-content: center;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  padding-top: 14px;
 }
 
 
 
-/*media queris*/
+@media screen and (max-width: 800px) {
 
-@media  (min-width: 1000px) {
+  .box{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
 
-section img{
-  width: 30%;
-  height: 30%;
-  align-items: center;
-}
-header{
-   justify-content: center;
-}
+    .img-flex {
+    margin: 10px;
+    width: 80%;
+   }
 
 header nav{
-  width: 100%;
-  height: 30;
-  justify-content: center;
+  padding: 15px;
 }
 
-header nav ul{
-   display: inline;
-}
-
-.div__header{
-  width: 20%;
-  height: 80%;
-  }
-
-.list__container{
+   header nav ul{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   .logo_nav {
    display: flex;
-   align-items: center;
-   justify-content: space-around;
+   justify-content: space-evenly;
+   flex-direction: row;
+   width: 78%;
+   align-items: flex-start;
+   }
+
+   .item{
+     padding: 1px;
+   }
+
+   .logo {
+    width: 40%;
+}
+.logo_a{
+  padding: 0px;
+  justify-content: flex-end;
 }
 
-.logo__contenedor{
-  width: 100%;
-  height: 100%;
+a:hover{
+   letter-spacing: 10px;
 }
-
-.item{
-  display: inline;
-  padding: 30px;
-}
-
-.item a{
-   display: inline;
-   padding: 30px;
-   text-decoration: none;
-}
-
-/*MAIN*/
-
-.main{
-  height: 55%;
-  weight: auto;
-}
-
-.nombre{
-  height: 30%;
-  weight: 70%;
-}
-
-
-h2{
-    border: 3px solid;
-    border-color: black;
-    margin:1px;
-}
-
-main p{
-    font-size: 110%;
-  }
-
-#quienes{
-   margin-top: 50px;
-}
-
-#fin__o{
-  font-size: 150%;
-  }
-
-
-/*FOOTER*/
-
-footer{
-  height: 15%;
-  background-color: #ffe292;
-}
-
-
-.text{
-  font-size: 80%;
-}
-
+    h2 {
+      font-size: 20px;
+     }
 }
