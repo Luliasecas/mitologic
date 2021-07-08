@@ -3,16 +3,33 @@
   box-sizing: border-box;
 }
 
-@@font-face {
-  font-family: "enyo";
-  src: url("enyo.otf") format("opentype");
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("BebasNeue.otf") format("truetype");
  }
+ @font-face {
+   font-family: "handwriting-draft";
+   src: url("handwriting-draft.ttf") format("opentype");
+  }
+  @font-face {
+    font-family: "Montserrat-Medium";
+    src: url("Montserrat-Medium.ttf") format("opentype");
+   }
+
+   @font-face {
+     font-family: "Impact";
+     src: url("Impact.ttf") format("opentype");
+    }
+
+
+
+
 body{
   /*style:"letter-spacing: 0.007em";*/
   margin: 0;
   padding: 0;
-  font-family: "enyo";
-}
+  font-family: "Montserrat-Medium";
+    }
 
 img {
   height: 80%;
@@ -51,6 +68,7 @@ header nav{
   display: flex;
   flex-wrap: wrap;
   padding: 25px;
+  font-family: "Montserrat-Medium";
 }
 
 header nav ul{
@@ -60,6 +78,7 @@ header nav ul{
   justify-content: center;
   padding: 0;
   flex-wrap: wrap;
+  font-size: 120%;
   }
 
   .item {
@@ -99,25 +118,33 @@ main section{
    width: 70%;
    text-align: center;
    background-color:#ffe292d1;
-}
+   }
 
 .nombre{
   text-align: center;
-  font-style: italic;
   background-color: #060606c2;
   color: #ffe292;
-  font-weight:bold;
+  font-family: "Montserrat-Black";
+  font-size: 300%;
+  padding: 2%;
+}
+
+.espacio{
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 h2{
-  font-size: 100%;
+  font-size: 250%;
   text-align: center;
   background-color:  #f1c40f;
   padding: 2%;
   margin-bottom: 4%;
-  color: black;
+  color: #000000e8;
   border: 3px solid;
   border-color: black;
+  font-family: "Impact";
+
 }
 
 main p{
@@ -125,25 +152,37 @@ main p{
     margin: 24px;
     font-weight: 600;
     font-size: 100%;
-    text-align: justify;
     color: black;
-
+    }
+/*
+.card-text{
+  font-family: "Montserrat-Medium";
+  color: #f1c40f;
+  }
+  .card-body{
+    background-color: black;
     }
 
-}
-h3{
-  font-size: 50%;
-  text-align: center;
+  .centro{
+     padding-left: 35%;
+      }
+
+  .col-md-4{
+    image-orientation: center;*/
+
+  /*  .desc{
+      display: flex;
+      justify-content: flex-end;
+      width: 35%;
+      flex-direction: row;
+    }
+    */
+
+.fondoDiv{
+  background-image: url("..//Assets/imagenes/basilico.jpg");
 }
 
 
-#fin__o{
-  font-size: 75%;
-  text-align: center;
-  background-color: #f1c40f94;
-  padding: 2%;
-  margin-bottom: 3%;
-}
 /*FOOTER*/
 #footer {
   width: auto;
@@ -190,6 +229,7 @@ justify-content: center;
   justify-content: center;
   margin-bottom: 10px;
 }
+
 
 
 /*media queris*/
@@ -253,6 +293,7 @@ header nav ul{
   height: 30%;
   weight: 70%;
 }
+
 
 h2{
     border: 3px solid;

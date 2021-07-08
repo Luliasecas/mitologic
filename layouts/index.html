@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Mitologic, sueños hechos realidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
       <link rel="stylesheet" href="../Assets/css/estilos.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
- </head>
+       </head>
   <body>
 
 <!-- HEADER -->
@@ -23,7 +23,7 @@
       <li class="item"><a href="#ofrece"> Servicios</a></li>
       <li class="item"><a href="#fin__o"> Catálogo</a></li>
       <li class="item"><a href="#expe"> Experiencias</a></li>
-      <li class="item"><a href="https://www.instagram.com" target="_blank">Contacto</a></li>
+      <li class="item"><a href="#footer"> Contacto</a></li>
     </ul>
  </div>
 </nav>
@@ -49,12 +49,13 @@
 </section>
 
 <section>
-    <h2 id="fin__o"> Catálogo </h2>
+    <h2> Catálogo </h2>
 
 
 <!-- PRUEBA DE TARJETA-->
 
-<!-- TARETA HORIZONTAL
+<!-- TARETA VERTICAL-->
+<!--
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
         <div class="col-md-8">
@@ -99,57 +100,112 @@
 </div>
 -->
 
-<!-- TARETA OTRA
-<div class="card" style="width: 18rem;">
-  <img src="..//Assets/imagenes/fauno.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<!-- TARETA OTRA -->
+<!--
+<div class="centro">
+  <div class="card" style="width: 90rem;">
+    <img src="..//Assets/imagenes/fauno.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">El Fauno es personificado como un hombre con largos cuernos, sus piernas son de cabra y en vez de tener pies,
+      posee pesuñas. <br>En la mitología romana se encontraba en los bosques y campos, su cometido en la tierra era
+     proteger a los rebaños de ataques con su fuerza causados por alimañas o campesinos. Además, podía revelar el
+     futuro a través de sueños o voces que le hablaban.</p>
+      <p>Recomendado para personas que gustan de largas charlas y la adivinación.</p>
+        </div>
+  </div>
+</div>
+ -->
+
+<!-- TARETA OTRA OTRA -->
+<!--
+ <div class="card bg-dark text-white">
+   <img src="..//Assets/imagenes/dragon.jpeg" class="card-img" alt="...">
+   <div class="card-img-overlay">
+     <h5 class="card-title">Dragón</h5>
+     <p class="card-text">Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
+       jamás. Están presentes en las leyendas de Asia, Europa, América y Oceanía, y unas de sus principales características es que escupen fuego y pueden volar.
+       Son grandes compañeros de paseos de días enteros.</p>
+       <p>Recomendado para personas que viven en zonas rurales.</p>
+     </div>
+ </div>
+ -->
+<!-- TARETA HORIZONTAL-->
+<!--
+<div class="card mb-3" style="max-width: 100%;">
+  <div class="row g-0">
+    <div class="col-md-4" >
+      <img src="..//Assets/imagenes/basilico.jpg" class="rounded float" alt="...">
+
+    </div>
+    <div class="col-md-8" >
+      <div class="card-body" >
+        <h5 class="card-title">Basilisco</h5>
+        <p class="card-text">El basilisco común, es un animal mitológico híbrido, cuya apariencia es más similar a la de un gallo, un reptil y murciélago.
+           Su vida empieza cuando rompe un huevo con forma redonda, abandonado por una gallina en principio e incubado por un
+           reptil más tarde.
+           Es un animal con un poder bastante parecido al de medusa, ya que es capaz de convertir en piedra todo lo que toca,
+           por lo que escasea de enemigos directos.</p>
+           <p>Recomendado para gente que tiene enemigos o no le gusta la compañia. No dejar este animal con acceso a la vía
+           pública.</p>
+              </div>
+    </div>
   </div>
 </div>
 -->
 
-
-  <div>
+  <div class="espacio">
     <h3 class="nombre">Dragón</h3>
-    <img src="..//Assets/imagenes/dragon.jpeg" alt="">
-    <p class="lh-base">Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
+    </div>
+
+    <div class="d-flex bd-highlight">
+    <img class="rounded p-2 w-100 bd-highligh"src="..//Assets/imagenes/dragon.jpeg" alt="">
+    <p class="desc p-2 flex-shrink-1 bd-highlight">Son reptiles alados y los seres mitológicos más poderosos que existen o de los que se haya hablado
     jamás. Están presentes en las leyendas de Asia, Europa, América y Oceanía, y unas de sus principales características es que escupen fuego y pueden volar.
-    Son grandes compañeros de paseos de días enteros.</p>
-    <p class="font-monospace"> Recomendado para personas que viven en zonas rurales. </p>
+    Son grandes compañeros de paseos de días enteros.Recomendado para personas que viven en zonas rurales.</p>
+
 
   </div>
 
-    <div>
+    <div class="espacio">
          <h3 class="nombre">Fauno</h3>
-         <img src="..//Assets/imagenes/fauno.jpeg" alt="">
-         <p>El Fauno es personificado como un hombre con largos cuernos, sus piernas son de cabra y en vez de tener pies,
+         </div>
+
+         <div class="d-flex bd-highlight">
+         <img class="rounded p-2 w-100 bd-highligh"src="..//Assets/imagenes/fauno.jpeg" alt="">
+         <p class="desc p-2 flex-shrink-1 bd-highlight">El Fauno es personificado como un hombre con largos cuernos, sus piernas son de cabra y en vez de tener pies,
          posee pesuñas. <br>En la mitología romana se encontraba en los bosques y campos, su cometido en la tierra era
         proteger a los rebaños de ataques con su fuerza causados por alimañas o campesinos. Además, podía revelar el
-        futuro a través de sueños o voces que le hablaban.<br>
-         Recomendado para personas que gustan de largas charlas y la adivinación.</p>
+        futuro a través de sueños o voces que le hablaban.Recomendado para personas que gustan de largas charlas y la adivinación.</p>
     </div>
 
-    <div>
+    <div class="espacio">
          <h3 class="nombre">Basilisco</h3>
-         <img src="..//Assets/imagenes/basilico.jpg" alt="">
-        <p>Basilisco
-         El basilisco común, es un animal mitológico híbrido, cuya apariencia es más similar a la de un gallo, un reptil y murciélago.
+      </div>
+
+         <div class="d-flex bd-highlight">
+          <img class="rounded p-2 w-100 bd-highlight" src="..//Assets/imagenes/basilico.png" alt="">
+        <p class="desc desc p-2 flex-shrink-1 bd-highlight"> El basilisco común, es un animal mitológico híbrido, cuya apariencia es más similar a la de un gallo, un reptil y murciélago.
          Su vida empieza cuando rompe un huevo con forma redonda, abandonado por una gallina en principio e incubado por un
          reptil más tarde.
          Es un animal con un poder bastante parecido al de medusa, ya que es capaz de convertir en piedra todo lo que toca,
-         por lo que escasea de enemigos directos. <br>
-         Recomendado para gente que tiene enemigos o no le gusta la compañia. No dejar este animal con acceso a la vía
+         por lo que escasea de enemigos directos.Recomendado para gente que tiene enemigos o no le gusta la compañia. No dejar este animal con acceso a la vía
          pública.</p>
     </div>
 
-   <div>
+<div class="espacio">
          <h3 class="nombre">Cerbero</h3>
-         <img src="..//Assets/imagenes/cerbero.jpeg" alt="">
-         <p> Cerbero era el perro guardián de Hades, el Dios del inframundo, que resguardaba el lugar, estando en las afueras
-         de la puerta del reino de los muertos para evitar la salida de los mismos y la entrada de los vivos.
-         Todo aquel que estuviera cerca a esta puerta se toparía con un gran monstruo con forma de perro de tres cabezas
-         y con una larga serpiente de cola. <br>
-         Recomendado para quien gusta de compañias profundas y transformadoras.</p>
+</div>
+
+<div class="d-flex bd-highlight">
+     <img class="rounded p-2 w-100 bd-highlight" src="..//Assets/imagenes/cerbero.jpeg" alt="">
+     <p class="desc p-2 flex-shrink-1 bd-highlight"> Cerbero era el perro guardián de Hades, el Dios del inframundo, que resguardaba el lugar, estando en las afueras
+     de la puerta del reino de los muertos para evitar la salida de los mismos y la entrada de los vivos.
+     Todo aquel que estuviera cerca a esta puerta se toparía con un gran monstruo con forma de perro de tres cabezas
+     y con una larga serpiente de cola. Recomendado para quien gusta de compañias profundas y transformadoras. </p>
+
+         <!-- <p class="desc"></p>-->
+
+
    </div>
 </section>
 
